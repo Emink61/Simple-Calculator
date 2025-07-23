@@ -2,10 +2,9 @@
 import sys
 
 #Welcome Message
-
 print("Welcome to Calculator")
-#Debriefing and control
 
+#Debriefing and control
 try:
     num1= int(input("Enter the first number:"))
 except ValueError:
